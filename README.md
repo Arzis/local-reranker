@@ -35,3 +35,7 @@ python -c "from modelscope import snapshot_download; snapshot_download('BAAI/bge
 pip install fastapi uvicorn
 ```
 
+# 启动服务
+```aiignore
+python rerank_server.py
+```
